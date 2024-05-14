@@ -182,25 +182,25 @@ h3, .like-h3 {
 }
 
 #california-waterlevels {
-    background-image: url('/static/water-levels-preview.png');
+    background-image: url('./static/water-levels-preview.PNG');
     background-size: cover;
     background-position: center;
 }
 
 #web-based-card-game {
-    background-image: url('/static/card-game-preview.png');
+    background-image: url('./static/card-game-preview.PNG');
     background-size: cover;
     background-position: center;
 }
 
 #multiplayer-maze-game {
-    background-image: url('/static/maze-runner-preview.png');
+    background-image: url('./static/maze-runner-preview.PNG');
     background-size: cover;
     background-position: center;
 }
 
 #tiktok-battle {
-    background-image: url('/static/tiktok-battle-preview.png');
+    background-image: url('./static/tiktok-battle-preview.PNG');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
