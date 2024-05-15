@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Austin Maung Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	 
@@ -15,96 +16,94 @@
 			<button class='navbar-button' data-section="#about-me">About Me</button>
 			<button class='navbar-button' data-section="#projects-section">Projects</button>
 			<button class='navbar-button' data-section="#contact">Contact</button>
-			<button class="navbar-button" onclick="window.open('static/software resume.pdf', '_blank')">Resume</button>
+			<button class="navbar-button" onclick="window.open('static/Resume - Austin Maung.pdf', '_blank')">Resume</button>
 		</div>
 	</div>
 	<section id='about-me' class="section-fade">
 		<div id="about-me-pic">
-			<img id="profile-pic" src="static/yoo.jpg" alt="Profile picture">
-			<div>
-				<p class='like-h1'>Hi, I'm Austin Maung</p>
-				<p class='like-h2'>I'm an aspiring Software Engineer</p>
-			</div>
+			
 			
 		</div>
+
+		<img id="profile-pic" src="static/profile.jpg" alt="Profile picture">
+		<h1>Austin Maung</h1>
+		<h2>Aspiring Software Engineer</h2>
 		
 
 		<div id='about-me-content'>
-
-	    	
-			<p class="about-me-text" style="font-weight: bold;">
-	    	<span class='like-h2'>Skills:</span> JS, Python, Java, C, C++, C#, React, Express, MySQL, NoSQL, Flask, Firebase, WebSockets, Git
+			<p class="about-me-text">
+				UC Davis, B.S. in Computer Science 2021 - 2024
 			</p>
 			<p class="about-me-text">
-			<span class='like-h2'>Education:</span> University of California Davis, B.S. in Computer Science 2021 - 2024
+	  			JS, Python, Java, C, C++, C#, React, Express, MySQL, NoSQL, Flask, Firebase, WebSockets, Git
 			</p>
 		</div>
 	</section>
 	
-	<section id='projects-section' class="section-fade">
-		<h1>Projects</h1>
+	<section id='projects-section'>
+		<h1 class="section-fade" id='projects-title'>Projects</h1>
 		
 		<div class="projects-container">
-			<div class="item"id='california-waterlevels'>
+			<div class="item section-fade"id='california-waterlevels'>
 				<div class='hover-background'>
 					<h3 class='project-title'>California Waterlevels</h3>
-					<h3 class="hover-unhide skills-learned">React, Express, react chartjs 2</h3>
+					<h3 class="hover-unhide skills-learned">React, Express, React ChartJS</h3>
 					
 					<div class='projects-links'>
 						<div class='hover-unhide'>
-							<a href="https://github.com/AustinMaung/California-WeatherLevels" class='links' target="_blank">	Source</a>
+							<a href="https://github.com/AustinMaung/California-WeatherLevels" class='links' style='font-size: 0.9em;' target="_blank">	Source</a>
 							</div>
 
 						<div class='hover-unhide'>
-							<a href="https://california-waterlevels.onrender.com" class='links' target="_blank">Demo</a>
+							<a href="https://california-waterlevels.onrender.com" class='links' style='font-size: 0.9em;' target="_blank">Demo</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="item"id='web-based-card-game'>
+			<div class="item section-fade"id='web-based-card-game'>
 				<div class='hover-background'>
 					<h3 class='project-title'>Web-based Card Game</h3>
 					<h3 class="hover-unhide skills-learned">Socket IO, Flask, p5.js</h3>
 
 					<div class='projects-links'>
 						<div class='hover-unhide'>
-							<a href="https://github.com/AustinMaung/card-game" class='links' target="_blank">Source</a>
+							<a href="https://github.com/AustinMaung/card-game" class='links' style='font-size: 0.9em;' target="_blank">Source</a>
 						</div>
 						<div class='hover-unhide'>
-							<a href="https://abyss-ascendant.onrender.com" class='links' target="_blank">Demo</a>
+							<a href="https://abyss-ascendant.onrender.com" class='links' style='font-size: 0.9em;' target="_blank">Demo</a>
 						</div>
 					</div>
 
 				</div>
 			</div>
-			<div class="item"id='multiplayer-maze-game'>
+			<div class="item section-fade"id='multiplayer-maze-game'>
 				<div class='hover-background'>
 					<h3 class='project-title'>Multiplayer Maze Game</h3>
-					<h3 class="hover-unhide skills-learned">p5.js, Firebase</h3>
+					<h3 class="hover-unhide skills-learned">Firebase, p5.js</h3>
 					
 					<div class='projects-links'>
 						<div class='hover-unhide'>
-							<a href="https://github.com/AustinMaung/maze-runner" class='links' target="_blank">Source</a>
+							<a href="https://github.com/AustinMaung/maze-runner" class='links' style='font-size: 0.9em;' target="_blank">Source</a>
 						</div>
 
 						<div class='hover-unhide'>
-							<a href="https://multiplayer-maze-runner.onrender.com" class='links' target="_blank">Demo</a>
+							<a href="https://multiplayer-maze-runner.onrender.com" class='links' style='font-size: 0.9em;' target="_blank">Demo</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="item" id='tiktok-battle'>
+			<div class="item section-fade" id='tiktok-battle'>
 				<div class='hover-background'>
 					<h3 class='project-title'>Tiktok Battle</h3>
-					<h3 class="hover-unhide skills-learned">SQLite, NodeJS, Express, Tiktok API, pagerank js</h3>
+					<h3 class="hover-unhide skills-learned">React, Express, SQLite, pagerank-js, TikTok API</h3>
 					
 					<div class='projects-links'>
 						<div class='hover-unhide'>
-							<a href="https://github.com/AustinMaung/tiktok-battles" class='links' target="_blank">Source</a>
+							<a href="https://github.com/AustinMaung/tiktok-battles" class='links' style='font-size: 0.9em;' target="_blank">Source</a>
 						</div>
 
 						<div class='hover-unhide'>
-							<a href="https://tiktok-battle.onrender.com" class='links' target="_blank">Demo</a>
+							<a href="https://tiktok-battle.onrender.com" class='links' style='font-size: 0.9em;' target="_blank">Demo</a>
 						</div>
 					</div>
 				</div>
@@ -113,13 +112,13 @@
 	</section>
 
 	<section id='contact' class="section-fade">
-		<h1>My contact info.</h1>
+		<!-- <h1>My contact info.</h1> -->
 		<div id='contact-items'>
 			<a href="https://www.linkedin.com/in/austin-maung/" target="_blank" class="links like-h1"><i class="fa fa-linkedin"></i></a>
 
-			<a href="https://github.com/AustinMaung" target="_blank" class="links like-h1"><i class="fa fa-github"></i></a>
+			<a href="https://github.com/AustinMaung" target="_blank" class="links"><i class="fa fa-github"></i></a>
 
-    		<a href="mailto:austinmaung27@gmail.com" class="links like-h1"><i class="fa fa-envelope"></i></a>
+    		<a href="mailto:austinmaung27@gmail.com" class="links"><i class="fa fa-envelope"></i></a>
   
 		</div>
 	</section>

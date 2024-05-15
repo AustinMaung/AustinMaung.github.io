@@ -35,7 +35,7 @@ const options = {
 const observer = new IntersectionObserver(handleIntersection, options);
 
 // Observe each section with the class 'observe-section'
-document.querySelectorAll('section').forEach(section => {
+document.querySelectorAll('section, .item, #projects-title').forEach(section => {
     observer.observe(section);
 });
 
